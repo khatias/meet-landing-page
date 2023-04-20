@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header {
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    overflow-x: hidden;
+  }
+  .hero {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: 4.8rem;
+  }
+  .image-right {
+    display: none;
+  }
+  .image-left {
+    display: none;
+  }
+  .hero-img {
+    max-width: 100%;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4.4rem;
+    text-align: center;
+    color: rgba(40, 40, 61, 1);
+    padding-bottom: 2.4rem;
+  }
+  
+  .description {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    text-align: center;
+    color: rgba(135, 135, 157, 1);
+  }
+  .btn {
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 2.6rem;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 2.9rem;
+    border: 0px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  span {
+    color: rgba(143, 227, 249, 1);
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.2rem;
+    gap: 1.6rem;
+  }
+  .btn-big {
+    background: rgba(77, 150, 169, 1);
+    height: 5.8rem;
+    width: 19.93rem;
+  }
+  .btn-big:hover {
+    background: rgba(113, 192, 212, 1);
+  }
+  .btn-small {
+    background: rgba(133, 95, 177, 1);
+    height: 5.8rem;
+    width: 13.9rem;
+  }
+  .btn-small:hover {
+    background: rgba(177, 139, 221, 1);
+  }
+  .page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .page-one {
+    margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
+  }
+  
+  .vertical {
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    height: 8.4rem;
+    border-radius: 0px;
+    border: 1px solid rgba(135, 135, 157, 1);
+  }
+  .one {
+    color: rgba(135, 135, 157, 1);
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 2.6rem;
+    padding: 15px 19px;
+    border-radius: 29px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    background: #fafafa;
+  }
+  .image {
+    display: grid;
+    justify-content: center;
+    width: 87.2%;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    gap: 2.5rem;
+  }
+  
+  .ppl {
+    max-width: 100%;
+    border-radius: 0.8rem;
+  }
+  .content {
+    width: 87.2%;
+    margin-top: 6.4rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 2.6rem;
+    letter-spacing: 4px;
+    color: rgba(77, 150, 169, 1);
+    text-align: center;
+    padding-bottom: 2.4rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 3.6rem;
+    color: rgba(40, 40, 61, 1);
+    text-align: center;
+    padding-bottom: 3.2rem;
+  }
+  
+  footer {
+    background-image: url("image-footer.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 42.8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16.3rem;
+  }
+  .wrapper {
+    mix-blend-mode: normal;
+    background-color: hsl(193, 33%, 51%, 0.85);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .page-second {
+    width: 100%;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.4rem;
+    margin-top: -11rem;
+  }
+  
+  .text-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h3 {
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 3.6rem;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(250, 250, 250, 1);
+    padding-bottom: 2.4rem;
+  }
+  
+  .footer-description {
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(250, 250, 250, 1);
+    padding-bottom: 2.4rem;
+    width: 32.7rem;
+  }
+  .btn-big2 {
+    background: rgba(133, 95, 177, 1);
+    height: 5.8rem;
+    width: 19.93rem;
+  }
+  
+  .btn-big2:hover {
+    background: rgba(113, 192, 212, 1);
+  }
+  
+  @media screen and (min-width: 768px) {
+    header {
+      height: 14rem;
+    }
+    .hero {
+      margin-bottom: 7.2rem;
+      margin-left: -2.6rem;
+      margin-right: -2.6rem;
+    }
+   
+  
+    .introduction {
+      padding-left: 15.6rem;
+      padding-right: 15.6rem;
+      display: block;
+    }
+  
+    h1 {
+      font-size: 4.8rem;
+      line-height: 4.8rem;
+    }
+    .buttons {
+      flex-direction: row;
+    }
+    .page-one {
+      margin-top: 8rem;
+    }
+    .image {
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: 100%;
+      gap: 1.1rem;
+    }
+  
+    .content {
+      margin-top: 4.8rem;
+      width: 74.6%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h4 {
+      padding-bottom: 1.6rem;
+    }
+    h2 {
+      font-size: 4rem;
+      line-height: 4.4rem;
+      width: 44.5rem;
+    }
+    footer {
+      margin-top: 17.9rem;
+      background-image: url("images/image-footer-tablet.jpg");
+    }
+    h3 {
+      font-size: 4rem;
+      line-height: 4.4rem;
+      padding-bottom: 3.2rem;
+    }
+    .footer-description {
+      width: 57.3rem;
+      padding-bottom: 4rem;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    header {
+      height: 16.9rem;
+    }
+    .hero {
+      display: none;
+    }
+    .image-left {
+      display: flex;
+      margin-left: -3.2rem;
+    }
+    .image-right {
+      display: flex;
+      margin-right: -3.2rem;
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .introduction {
+      padding-left: 8.8rem;
+      padding-right: 8.8rem;
+    }
+    h1 {
+      font-size: 6.4rem;
+      line-height: 6.4rem;
+      padding-bottom: 3.4rem;
+    }
+    .description {
+      font-size: 1.8rem;
+    }
+    .page-one {
+      margin-top: 11rem;
+      margin-bottom: 6.4rem;
+    }
+    .image {
+      width: 77%;
+      gap: 2.25rem;
+    }
+  
+    .content {
+      margin-top: 8rem;
+      width: 54rem;
+    }
+    footer {
+      background-image: url("images/image-footer-desktop.jpg");
+      height: 30.8rem;
+    }
+    .text-conteiner {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 111rem;
+    }
+    h3 {
+      padding: 0px;
+      width: 35rem;
+      text-align: left;
+    }
+    .footer-description {
+      width: 35rem;
+      padding: 0px;
+    }
+  }
+  
